@@ -12,6 +12,7 @@ const initialValues = {
   handleAddToCart: () => {},
   handleRemove: () => {},
   handleChange: () => {},
+  saveNewProduct: () => {}
 };
 
 const ProductContext = createContext(initialValues);
